@@ -12,4 +12,10 @@ const btn2 = document.querySelector(".btn2").addEventListener("click", () => {
   let media = (n1 + n2 + n3) / 3;
 
   alert(`Média: ${media.toFixed(2)}.`);
+
+  if (media >= 7) {
+    alert("Aprovado")
+  } else {
+    alert("Reprovado")
+  }
 });
