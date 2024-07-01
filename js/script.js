@@ -14,8 +14,17 @@ const btn2 = document.querySelector(".btn2").addEventListener("click", () => {
   alert(`Média: ${media.toFixed(2)}.`);
 
   if (media >= 7) {
-    alert("Aprovado")
+    alert("Aprovado");
   } else {
-    alert("Reprovado")
+    alert("Reprovado");
   }
+});
+
+const btn3 = document.querySelector(".btn3").addEventListener("click", () => {
+  let peso = Number(prompt("Peso: "));
+  let altura = Number(prompt("Altura: "));
+
+  let imc = peso / Math.pow(altura, 2);
+
+  alert(`IMC: ${imc.toFixed(2)}.`);
 });

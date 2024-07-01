@@ -5,7 +5,7 @@ body {
 
 }
 
-.btn1, .btn2 {
+.btn{
     cursor: pointer;
     padding: 1rem;
     background-color: violet;
@@ -20,7 +20,7 @@ body {
 
 }
 
-.btn1,.btn2:hover {
+.btn:hover {
     filter: brightness(1.2);
     transition: .3s;
 }
